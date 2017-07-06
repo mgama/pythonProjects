@@ -1,7 +1,7 @@
 #Given 2 lists of numbers, identify if they both have the same numbers or not. It does not matter the order
 #but it should detect if they are duplicates in any of the two
 
-class arrays_operations: 
+class ArraysOperations: 
 
 	def __init__(self):
 		self.arraysAreEqual = False
@@ -37,10 +37,10 @@ class arrays_operations:
 		return True
 
 
-if __name__ == '__main__':
-	testArray1 = [5,3,2,1]
-	testArray2 = [5,3,2,4]
+###Test the class
+# testArray1 = [5,3,2,1]
+# testArray2 = [5,3,2,4]
 
-	arrayOperations = arrays_operations()
-	arrayOperations.arraysHaveSameNumbers(testArray1, testArray2)
-	arrayOperations.arrayHasUniqueNumbers(testArray1)
+# arrayOperations = ArraysOperations()
+# arrayOperations.arraysHaveSameNumbers(testArray1, testArray2)
+# arrayOperations.arrayHasUniqueNumbers(testArray1)

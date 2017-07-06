@@ -2,7 +2,7 @@
 #0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 #Create a class that will return an fibonacci number from the sequence
 
-class fibonacci: 
+class Fibonacci: 
 
 	def __init__(self):
 		self.fibonacciSeq = []
@@ -16,25 +16,19 @@ class fibonacci:
 			return self.F_n2
 		else:
 			self.fibonacciSeq = [self.F_n, self.F_n2]
-			print self.fibonacciSeq
 			for i in range(2, number):
 				self.fibonacciSeq.append(self.F_n + self.F_n2)
-				# print self.fibonacciSeq
-				#print "The sequence inside for loop is " + str(self.fibonacciSeq)
-				#print "i has a value of " + str(i)
+				print "The sequence inside for loop is " + str(self.fibonacciSeq)
+				print "i has a value of " + str(i)
 				self.F_n = self.F_n2
 				self.F_n2 = self.fibonacciSeq[i]
-			return self.fibonacciSeq
 
 	def getFibonacciNumber(self, number):
 		self.generateSequence(number)
-		# print "The fibonacci Sequence is "
-		# print self.fibonacciSeq
 		return self.fibonacciSeq[number - 1]
 
 
-if __name__ == '__main__':
-	f = fibonacci()
-	print f.getFibonacciNumber(5)
-	print f.generateSequence(5)
+###Test the class
+f = Fibonacci()
+print f.getFibonacciNumber(5)
 
