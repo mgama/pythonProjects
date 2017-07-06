@@ -1,4 +1,4 @@
-from PythonProgramming import Fibonacci
+from .context import PythonProgramming
 
 def test1_getFibonacciNumber_Test():
 	fib = Fibonacci()

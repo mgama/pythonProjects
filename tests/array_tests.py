@@ -1,4 +1,4 @@
-from PythonProgramming import ArraysOperations
+from .context import PythonProgramming
 
 def test1_differentArrays(): 
 	arrayOperations = ArraysOperations()
