@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="4" errors="0" failures="0" skip="0"><testcase classname="tests.fibonacci_tests" name="test1_getFibonacciNumber_Test" time="0.000"><system-out><![CDATA[[0, 1]
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="10" errors="0" failures="0" skip="0"><testcase classname="tests.array_tests" name="test1_differentArrays" time="0.000"><system-out><![CDATA[From test1_differentArrays
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [5, 3, 2, 4] are unique
+The arrays have the same numbers? False Because the number 1 from array 1 is not on array 2
+False
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [5, 3, 2, 4] are unique
+The arrays have the same numbers? False Because the number 1 from array 1 is not on array 2
+]]></system-out></testcase><testcase classname="tests.array_tests" name="test2_equalArrays_equalOrder" time="0.000"><system-out><![CDATA[From test2_equalArrays_equalOrder
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [5, 3, 2, 1] are unique
+The arrays have the same numbers? True
+True
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [5, 3, 2, 1] are unique
+The arrays have the same numbers? True
+]]></system-out></testcase><testcase classname="tests.array_tests" name="test3_equalArrays_reversedOrder" time="0.000"><system-out><![CDATA[From test3_equalArrays_reversedOrder
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [1, 2, 3, 5] are unique
+The arrays have the same numbers? True
+True
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [1, 2, 3, 5] are unique
+The arrays have the same numbers? True
+]]></system-out></testcase><testcase classname="tests.array_tests" name="test4_differentArrays" time="0.000"><system-out><![CDATA[From test4_differentArrays
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [1, 3, 2, 4] are unique
+The arrays have the same numbers? False Because the number 5 from array 1 is not on array 2
+False
+All numbers inside the array [5, 3, 2, 1] are unique
+All numbers inside the array [1, 3, 2, 4] are unique
+The arrays have the same numbers? False Because the number 5 from array 1 is not on array 2
+]]></system-out></testcase><testcase classname="tests.array_tests" name="test5_arrayWithDuplicates" time="0.000"><system-out><![CDATA[From test5_arrayWithDuplicates
+ Found duplicate: 1 and 1
+False
+ Found duplicate: 1 and 1
+]]></system-out></testcase><testcase classname="tests.array_tests" name="test6_arrayWithNoDuplicates" time="0.000"><system-out><![CDATA[From test6_arrayWithNoDuplicates
+All numbers inside the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] are unique
+True
+All numbers inside the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] are unique
+]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test1_getFibonacciNumber_Test" time="0.000"><system-out><![CDATA[[0, 1]
 ]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test2_generateSequence_Test" time="0.000"><system-out><![CDATA[[0, 1]
 ]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test3_getFibonacciNumber_Test" time="0.000"><system-out><![CDATA[[0, 1]
 ]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test4_generateSequence_Test" time="0.000"><system-out><![CDATA[[0, 1]
