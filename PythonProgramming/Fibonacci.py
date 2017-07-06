@@ -29,6 +29,6 @@ class Fibonacci:
 
 
 ###Test the class
-# f = Fibonacci()
-# print f.getSequence(5)
+f = Fibonacci()
+print f.getFibonacciNumber(5)
 
