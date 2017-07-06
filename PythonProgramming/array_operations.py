@@ -36,11 +36,23 @@ class arrays_operations:
 		print 'All numbers inside the array ' + str(array) + ' are unique'
 		return True
 
+	def orderArray(self, array):
+		orderedArray = []
+		for i in range(len(array)):
+			print i, array[i]
+			for j in range(len(array)-1):
+				print "Comparing " + str(array[i]) + " with " + str(array[j])
+
+	# def retrieveLowestNumber(self, array):
+
+
+	# def retrieveSecondLowestNumber(self, array):
 
 if __name__ == '__main__':
 	testArray1 = [5,3,2,1]
 	testArray2 = [5,3,2,4]
 
 	arrayOperations = arrays_operations()
-	arrayOperations.arraysHaveSameNumbers(testArray1, testArray2)
-	arrayOperations.arrayHasUniqueNumbers(testArray1)
+	# arrayOperations.arraysHaveSameNumbers(testArray1, testArray2)
+	# arrayOperations.arrayHasUniqueNumbers(testArray1)
+	arrayOperations.orderArray(testArray1)
