@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="2" errors="0" failures="1" skip="0"><testcase classname="tests.fibonacci_tests" name="test1_getFibonacciNumber_Test" time="0.000"><system-out><![CDATA[The fibonacci Sequence is 
-[0, 1, 1, 2, 3]
-]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test2_generateSequence_Test" time="0.000"><failure type="exceptions.AssertionError" message=""><![CDATA[Traceback (most recent call last):
-  File "/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py", line 329, in run
-    testMethod()
-  File "/usr/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
-    self.test(*self.arg)
-  File "/Users/manuelgama/pythonProjects/tests/fibonacci_tests.py", line 11, in test2_generateSequence_Test
-    assert fib.fibonacciSeq == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-AssertionError
-]]></failure></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="4" errors="0" failures="0" skip="0"><testcase classname="tests.fibonacci_tests" name="test1_getFibonacciNumber_Test" time="0.000"><system-out><![CDATA[[0, 1]
+]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test2_generateSequence_Test" time="0.000"><system-out><![CDATA[[0, 1]
+]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test3_getFibonacciNumber_Test" time="0.000"><system-out><![CDATA[[0, 1]
+]]></system-out></testcase><testcase classname="tests.fibonacci_tests" name="test4_generateSequence_Test" time="0.000"><system-out><![CDATA[[0, 1]
+]]></system-out></testcase></testsuite>

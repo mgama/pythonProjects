@@ -19,7 +19,6 @@ class fibonacci:
 			print self.fibonacciSeq
 			for i in range(2, number):
 				self.fibonacciSeq.append(self.F_n + self.F_n2)
-				# print self.fibonacciSeq
 				#print "The sequence inside for loop is " + str(self.fibonacciSeq)
 				#print "i has a value of " + str(i)
 				self.F_n = self.F_n2
@@ -28,13 +27,10 @@ class fibonacci:
 
 	def getFibonacciNumber(self, number):
 		self.generateSequence(number)
-		# print "The fibonacci Sequence is "
-		# print self.fibonacciSeq
 		return self.fibonacciSeq[number - 1]
 
 
 if __name__ == '__main__':
 	f = fibonacci()
-	print f.getFibonacciNumber(5)
-	print f.generateSequence(5)
+	print f.generateSequence(10)
 
