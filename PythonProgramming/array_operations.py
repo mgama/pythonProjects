@@ -42,6 +42,9 @@ class arrays_operations:
 			print i, array[i]
 			for j in range(len(array)-1):
 				print "Comparing " + str(array[i]) + " with " + str(array[j])
+				if(array[i] > array[j]):
+					orderedArray.append(array[i]);
+					orderedArray.append(array[j]);
 
 	# def retrieveLowestNumber(self, array):
 
